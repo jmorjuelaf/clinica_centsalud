@@ -1,0 +1,22 @@
+<header>
+<nav mat-tab-nav-bar>
+  <a mat-tab-link
+     class="logo"
+     [routerLink]="'/inicio'">
+    <img src="/assets/imagenes/logoCentSalud.png">
+  </a>
+<div class="menu">
+  <a mat-tab-link routerLink="inicio">Inicio</a>
+  <a mat-tab-link routerLink="servicios">Servicios</a>
+  <a mat-tab-link routerLink="nosotros">Nosotros</a>
+  <a mat-tab-link routerLink="sedes">Sedes</a>
+  <a mat-tab-link routerLink="noticias">Noticias</a>
+</div>
+</nav> 
+<div>
+  <router-outlet></router-outlet>
+</div>
+</header>
+
+
+
