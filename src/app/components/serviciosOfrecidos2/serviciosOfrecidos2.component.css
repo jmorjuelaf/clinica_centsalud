@@ -5,7 +5,7 @@
     font-size: 24px;
 }
 .principal {
-    max-width: 230px;
+    max-width: 128px;
   }
   .ico {
     width: 100%;
@@ -17,5 +17,5 @@
   }
   table {
   border-collapse: separate;
-  border-spacing: 10px 10px;
+  border-spacing: 100px 100px;
 }

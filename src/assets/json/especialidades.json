@@ -64,6 +64,10 @@
         "icono": "holter.ico"
       },
       {
+        "nombre_servicio": "Espirometría",
+        "icono": "espirometria.ico"
+      },
+      {
         "nombre_servicio": "Otros Servicios",
         "icono": "otros2.ico"
       }

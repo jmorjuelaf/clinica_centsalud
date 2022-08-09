@@ -15,6 +15,7 @@ import { SedesComponent } from './components/sedes/sedes.component';
 import { NoticiasComponent } from './components/noticias/noticias.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ServiciosOfrecidosComponent } from './components/serviciosOfrecidos/serviciosOfrecidos.component';
+import { ServiciosOfrecidos2Component } from './components/serviciosOfrecidos2/serviciosOfrecidos2.component';
 
 
 
@@ -27,7 +28,8 @@ import { ServiciosOfrecidosComponent } from './components/serviciosOfrecidos/ser
     NosotrosComponent,
     SedesComponent,
     NoticiasComponent,
-    ServiciosOfrecidosComponent
+    ServiciosOfrecidosComponent,
+    ServiciosOfrecidos2Component
 
    ],
   imports: [
