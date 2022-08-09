@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'clinica_centsalud';
-  ngOnInit() {
+  ngOnInit(): void {
   }
 }

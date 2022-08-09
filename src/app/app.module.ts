@@ -13,6 +13,9 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
 import { SedesComponent } from './components/sedes/sedes.component';
 import { NoticiasComponent } from './components/noticias/noticias.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ServiciosOfrecidosComponent } from './components/serviciosOfrecidos/serviciosOfrecidos.component';
+
 
 
 @NgModule({
@@ -23,14 +26,16 @@ import { NoticiasComponent } from './components/noticias/noticias.component';
     ServiciosComponent,
     NosotrosComponent,
     SedesComponent,
-    NoticiasComponent
+    NoticiasComponent,
+    ServiciosOfrecidosComponent
 
    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatTabsModule
+    MatTabsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
