@@ -1,14 +1,26 @@
 <body>
-    <div class="container">
-        <div class="titulo">
-            <p><strong>¡Especialistas en salud!</strong> </p>
-        </div>
-    </div>
-    <app-serviciosOfrecidos></app-serviciosOfrecidos>
-    <div class="container">
-        <div class="titulo">
-            <p><strong>Noticias en salud</strong> </p>
-        </div>
-    </div>
-    <router-outlet></router-outlet>
+    <main id="main">
+        <!-- ======= Sección inicio ======= -->
+        <section>
+            <div class="container">
+                <div class="titulo">
+                    <p><strong>¡Especialistas en salud!</strong> </p>
+                </div>
+            </div>
+        </section> <!--Fin inicio-->
+        <!-- ======= Sección Servicios======= -->
+        <section id="services">
+            <app-serviciosOfrecidos></app-serviciosOfrecidos>
+            <app-serviciosOfrecidos2></app-serviciosOfrecidos2>
+        </section><!--Fin servicios-->
+        <!-- ======= Sección Noticias======= -->
+        <section id="news">
+            <div class="container">
+                <div class="titulo">
+                    <p><strong>Noticias en salud</strong> </p>
+                </div>
+            </div>
+        </section><!--Fin noticias-->
+    </main>
 </body>
+<router-outlet></router-outlet>

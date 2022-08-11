@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServiciosComponent implements OnInit {
 
-  constructor() { }
-
   ngOnInit() {
   }
-
-}
+  links = ['./especialidades', './procedimientos'];
+  menu = ['Especialidades', 'Procedimientos'];
+  activeLink = this.links[1];
+} 

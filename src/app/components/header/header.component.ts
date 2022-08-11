@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -6,8 +6,9 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  
   ngOnInit() {
   }
-
+  links = ['./inicio', './servicios', './nosotros','./sedes','./noticias','./contactenos',];
+  menu = ['Inicio', 'Servicios', 'Nosotros','Sedes','Noticias','Contáctenos'];
+  activeLink = this.links[1];
 } 

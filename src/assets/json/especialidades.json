@@ -1,7 +1,7 @@
 [
   {
-    "descripcion": "Nuestras especialidades",
-    "servicios": [
+    "descripcion_esp": "Nuestras especialidades",
+    "servicios_esp": [
       {
         "nombre_servicio": "Psicología",
         "icono": "psicologia.ico"
@@ -37,10 +37,10 @@
     ]
   },
   {
-    "descripcion": "Nuestros Procedimientos",
-    "servicios": [
+    "descripcion_proc": "Nuestros Procedimientos",
+    "servicios_proc": [
       {
-        "nombre_servicio": "Ecocardiograma",
+        "nombre_servicio": "Eco cardiograma",
         "icono": "ecocardiograma.ico"
       },
       {
@@ -48,11 +48,11 @@
         "icono": "fisioterapia.ico"
       },
       {
-        "nombre_servicio": "Electrocardiograma",
+        "nombre_servicio": "Electro cardiograma",
         "icono": "electrocardiograma.ico"
       },
       {
-        "nombre_servicio": "Ecografia",
+        "nombre_servicio": "Ecografía",
         "icono": "ecografia.ico"
       },
       {

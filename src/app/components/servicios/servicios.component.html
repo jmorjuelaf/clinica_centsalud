@@ -1,3 +1,16 @@
-<p>
-  servicios works!
-</p>
+<body>
+  <div class="container">
+    <div class="titulo">
+      <p><strong>¡Especialistas en salud!</strong> </p>
+    </div>
+  </div>
+  <nav mat-tab-nav-bar mat-align-tabs="center">
+    <a mat-tab-link *ngFor="let link of links; index as i"
+      [routerLink]="link"
+      (click)="activeLink= link"
+      [active]="activeLink == link"> {{menu[i]}} </a>
+  </nav>
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+</body>

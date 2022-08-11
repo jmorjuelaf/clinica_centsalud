@@ -1,15 +1,16 @@
-<section class="serviciosOfrecidos2">
+<section class="serviciosOfrecidos">
   <div class="container"></div>
   <div class="container">
     <div *ngFor="let especialidad of especialidades">
-      <h3 class="especialidades">{{especialidad.descripcion}}</h3>
+      <h3 class="especialidades">{{especialidad.descripcion_proc}}</h3>
       <table>
-        <td *ngFor="let servicio of especialidad.servicios" class="principal">
+        <td *ngFor="let servicio of especialidad.servicios_proc" class="principal">
           <tr>
             <td>
               <img src="assets/img/icons/{{servicio.icono}}" width="64px"
                 class="ico">
             </td>
+            </tr>
             <tr>
               <td class="nombres_esp">{{servicio.nombre_servicio}}</td>
             </tr>

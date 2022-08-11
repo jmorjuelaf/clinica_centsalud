@@ -6,8 +6,8 @@
   background-color: transparent;
   color:#00a4d3 ;
   font-family: helvetica;
-  font-size: 24px;
-  min-height: 100px !important;
+  font-size: 18px;
+  min-height: 80px !important;
 }
 /*/*Cuando está seleccionado*/
 ::ng-deep.mat-tab-link:focus{
@@ -16,8 +16,8 @@
   background-color: transparent;
   color: #ffa834;
   font-family: helvetica;
-  font-size: 24px;
-  min-height: 100px !important;
+  font-size: 18px;
+  min-height: 80px !important;
 }
 /*/*Cuando se pasa el mouse*/
 ::ng-deep.mat-tab-link:hover{
@@ -26,6 +26,9 @@
   background-color: transparent;
   color: #ffa834;
   font-family: helvetica;
-  font-size: 24px;
-  min-height: 100px !important;
+  font-size: 18px;
+  min-height: 80px !important;
+}
+::ng-deep.mat-tab-group{
+  height: 80px;
 }
