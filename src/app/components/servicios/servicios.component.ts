@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
+// Importar el archivo JSON 
+
+import menuEspecialidades from '/src/assets/json/tabs.json';
+
 @Component({
   selector: 'app-servicios',
   templateUrl: './servicios.component.html',
@@ -7,9 +11,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServiciosComponent implements OnInit {
 
+  title = '¡Especialistas en salud!';
+  links: any = menuEspecialidades;
+
+  constructor() { }
+
   ngOnInit() {
   }
-  links = ['./especialidades', './procedimientos'];
-  menu = ['Especialidades', 'Procedimientos'];
-  activeLink = this.links[1];
-} 
+
+}

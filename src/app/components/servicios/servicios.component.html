@@ -1,14 +1,12 @@
 <body>
   <div class="container">
     <div class="titulo">
-      <p><strong>¡Especialistas en salud!</strong> </p>
+      <p><strong>{{title}}</strong> </p>
     </div>
   </div>
   <nav mat-tab-nav-bar mat-align-tabs="center">
-    <a mat-tab-link *ngFor="let link of links; index as i"
-      [routerLink]="link"
-      (click)="activeLink= link"
-      [active]="activeLink == link"> {{menu[i]}} </a>
+    <a mat-tab-link *ngFor="let link of links"
+      [routerLink]="'./especialidades'">{{link.tab}}</a>
   </nav>
   <div>
     <router-outlet></router-outlet>

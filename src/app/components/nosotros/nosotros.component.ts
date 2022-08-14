@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NosotrosComponent implements OnInit {
 
+  title = '¡Especialistas en salud!';
   constructor() { }
 
   ngOnInit() {

@@ -40,7 +40,7 @@ import { ProcedimientosComponent } from './components/procedimientos/procedimien
     AppRoutingModule,
     BrowserAnimationsModule,
     MatTabsModule,
-    FontAwesomeModule
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
