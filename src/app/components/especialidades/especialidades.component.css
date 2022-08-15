@@ -1,28 +1,12 @@
-.especialidades{
-    text-align: center;
-    font-family: Helvetica;
-    color: #6f6f6f;
-    font-size: 18px;
-}
 .principal {
-    max-width: 128px;
-  }
-  .ico {
-    width: 100%;
-  }
-  .nombres_esp{
-    text-align: right;
-    font-weight: bold;
-    font-family: helvetica;
-  }
-  table {
-  border-collapse: separate;
-  text-align: center;
-  border-spacing: 10px 10px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
 }
-table td {
-  text-align: center;
-}
-table td:nth-child(even) {
-  background:#d7f3cb;
+.wrapper {
+  display: grid;
+  grid-template-rows: 100px 100px;
+  grid-gap: 5px;
+  background-color: red;
 }

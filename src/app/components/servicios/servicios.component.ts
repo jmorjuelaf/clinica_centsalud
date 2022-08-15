@@ -13,6 +13,7 @@ export class ServiciosComponent implements OnInit {
 
   title = '¡Especialistas en salud!';
   tabs: any = menuEspecialidades;
+  activeLink = this.tabs[1];
 
   constructor() { }
 
