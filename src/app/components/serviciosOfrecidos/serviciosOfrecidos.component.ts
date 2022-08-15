@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 // Importar el archivo JSON 
 
-import listadeEspecialidades from '/src/assets/json/especialidades.json';
+import listadeEspecialidades from '/src/assets/json/serviciosOfrecidos.json';
 
 @Component({
   selector: 'app-serviciosOfrecidos',

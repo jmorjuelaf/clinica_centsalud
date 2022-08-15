@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import listadeProcedimientos from '/src/assets/json/especialidades.json';
+import listadeProcedimientos from '/src/assets/json/serviciosOfrecidos.json';
 
 @Component({
   selector: 'app-serviciosOfrecidos2',

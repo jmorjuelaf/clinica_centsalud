@@ -9,6 +9,6 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
   links = ['./inicio', './servicios', './nosotros','./sedes','./noticias','./contactenos',];
-  menu = ['Inicio', 'Servicios', 'Nosotros','Sedes','Noticias','Contáctenos'];
+  menu = ['Inicio', 'Servicios', 'Nosotros', 'Sedes', 'Noticias', 'Contáctenos'];
   activeLink = this.links[1];
 } 
