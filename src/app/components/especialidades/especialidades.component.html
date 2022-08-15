@@ -1,11 +1,10 @@
 <section class="serviciosOfrecidos">
   <div class="container">
     <div *ngFor="let especialidad of especialidades" class="principal">
-      <div *ngFor="let especialidad of especialidad.especialidades" >
-        <div class="wrapper"> <img src="assets/img/icons/{{especialidad.icono}}" width="64px"
+      <div *ngFor="let especialidad of especialidad.especialidades" class="wrapper" >
+        <img src="assets/img/icons/{{especialidad.icono}}" width="64px"
             class="ico">
           <p>{{especialidad.nombre_servicio}}</p>
-        </div>
       </div>
     </div>
   </div>

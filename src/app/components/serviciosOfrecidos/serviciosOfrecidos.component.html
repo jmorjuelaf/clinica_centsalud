@@ -1,21 +1,15 @@
 <section class="serviciosOfrecidos">
-  <div class="container"></div>
   <div class="container">
-    <div *ngFor="let especialidad of especialidades">
-      <h3 class="especialidades">{{especialidad.descripcion}}</h3>
-      <table>
-        <td *ngFor="let servicio of especialidad.especialidades" class="principal">
-          <tr>
-            <td>
-              <img src="assets/img/icons/{{servicio.icono}}" width="64px"
-                class="ico">
-            </td>
-            </tr>
-            <tr>
-              <td class="nombres_esp">{{servicio.nombre_servicio}}</td>
-            </tr>
-          </table>
-        </div>
+    <div *ngFor="let especialidad of especialidades" class="titulo">
+      {{especialidad.descripcion_esp}}
+    </div>
+    <div *ngFor="let especialidad of especialidades" class="principal">
+      <div *ngFor="let especialidad of especialidad.especialidades" class="wrapper" >
+        <img src="assets/img/icons/{{especialidad.icono}}" width="64px"
+            class="ico">
+          <p>{{especialidad.nombre_servicio}}</p>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 

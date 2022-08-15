@@ -1,19 +1,14 @@
-<section class="serviciosOfrecidos">
-  <div class="container"></div>
+<section class="serviciosOfrecidos2">
   <div class="container">
-    <div *ngFor="let procedimiento of procedimientos">
-      <table>
-        <td *ngFor="let servicio of procedimiento.procedimientos" class="principal">
-          <tr>
-            <td>
-              <img src="assets/img/icons/{{servicio.icono}}" width="64px"
-                class="ico">
-            </td>
-            </tr>
-            <tr>
-              <td class="nombres_esp">{{servicio.nombre_servicio}}</td>
-            </tr>
-          </table>
-        </div>
+    <div *ngFor="let procedimiento of procedimientos" class="titulo">
+      {{procedimiento.descripcion_proc}}
+    </div>
+    <div *ngFor="let procedimiento of procedimientos" class="principal">
+      <div *ngFor="let procedimiento of procedimiento.procedimientos" class="wrapper" >
+        <img src="assets/img/icons/{{procedimiento.icono}}" width="64px"
+            class="ico">
+          <p>{{procedimiento.nombre_servicio}}</p>
       </div>
-    </section>
+    </div>
+  </div>
+</section>

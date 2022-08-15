@@ -1,6 +1,6 @@
 [
   {
-    "descripcion": "Nuestras especialidades",
+    "descripcion_esp": "Nuestras especialidades",
     "especialidades": [
       {
         "nombre_servicio": "Psicología",
@@ -37,7 +37,7 @@
     ]
   },
   {
-    "descripcion": "Nuestros Procedimientos",
+    "descripcion_proc": "Nuestros Procedimientos",
     "procedimientos": [
       {
         "nombre_servicio": "Eco cardiograma",
