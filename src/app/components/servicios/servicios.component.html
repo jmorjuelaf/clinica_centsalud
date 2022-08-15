@@ -1,12 +1,12 @@
 <body>
-  <div class="container">
+ <div class="container">
     <div class="titulo">
       <p><strong>{{title}}</strong> </p>
     </div>
   </div>
   <nav mat-tab-nav-bar mat-align-tabs="center">
-    <a mat-tab-link *ngFor="let link of links"
-      [routerLink]="'./especialidades'">{{link.tab}}</a>
+    <a mat-tab-link *ngFor="let tab of tabs"
+    [routerLink]="tab.ruta">{{tab.tab}}</a><!--Los tabs y sus rutas-->
   </nav>
   <div>
     <router-outlet></router-outlet>

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import listadeEspecialidades from '/src/assets/json/especialidades.json';
+import listadeProcedimientos from '/src/assets/json/especialidades.json';
 
 @Component({
   selector: 'app-serviciosOfrecidos2',
@@ -9,7 +9,7 @@ import listadeEspecialidades from '/src/assets/json/especialidades.json';
 })
 export class ServiciosOfrecidos2Component implements OnInit {
 
-  especialidades: any = listadeEspecialidades;
+  procedimientos: any = listadeProcedimientos;
 
   constructor() { }
 

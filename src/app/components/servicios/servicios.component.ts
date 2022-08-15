@@ -12,7 +12,7 @@ import menuEspecialidades from '/src/assets/json/tabs.json';
 export class ServiciosComponent implements OnInit {
 
   title = '¡Especialistas en salud!';
-  links: any = menuEspecialidades;
+  tabs: any = menuEspecialidades;
 
   constructor() { }
 

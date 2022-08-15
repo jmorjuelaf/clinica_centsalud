@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 // Importar el archivo JSON 
 
-import listadeEspecialidades from '/src/assets/json/especialidades.json';
+import menuProcedimientos from '/src/assets/json/tabs.json';
 
 @Component({
   selector: 'app-procedimientos',
@@ -11,7 +11,7 @@ import listadeEspecialidades from '/src/assets/json/especialidades.json';
 })
 export class ProcedimientosComponent implements OnInit {
 
-  especialidades: any = listadeEspecialidades;
+  procedimientos: any = menuProcedimientos;
 
   constructor() { }
 
