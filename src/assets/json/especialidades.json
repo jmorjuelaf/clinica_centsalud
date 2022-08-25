@@ -1,0 +1,29 @@
+[
+  {
+    "nombre_servicio": "Odontología",
+    "icono": "odontologia.ico",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
+    "instalaciones": [
+      "instalacion1.png",
+      "instalacion2.png",
+      "instalacion3.png",
+      "instalacion4.png",
+      "instalacion5.png",
+      "instalacion6.png"
+    ],
+    "sedes": [
+      {
+        "nombre_sede": "Sede Monteria",
+        "icono": "monteria.png"
+      },
+      {
+        "nombre_sede": "Sede Cartagena",
+        "icono": "monteria.png"
+      },
+      {
+        "nombre_sede": "Sede Honda",
+        "icono": "monteria.png"
+      }
+    ]
+  }
+]

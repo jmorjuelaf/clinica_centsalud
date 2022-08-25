@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { EspecialidadesComponent } from './components/especialidades/especialidades.component';
+import { SubespecialidadesComponent } from './components/subespecialidades/subespecialidades.component';
 
 import { InicioComponent } from './components/inicio/inicio.component';
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
@@ -31,12 +32,20 @@ const routes: Routes = [
     children: [
     {
       path: 'especialidades',
-      component: EspecialidadesComponent
+      component: EspecialidadesComponent,
+    },
+    {
+      path: 'subespecialidades/:nombre_servicio',
+      component: SubespecialidadesComponent,
     },
     {
       path: 'procedimientos',
       component: ProcedimientosComponent
-    }
+    },
+    {
+      path: 'subespecialidades',
+      component: SubespecialidadesComponent,
+    },
   ]
 },
   {

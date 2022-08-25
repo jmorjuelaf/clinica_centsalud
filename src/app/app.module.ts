@@ -18,6 +18,9 @@ import { ServiciosOfrecidosComponent } from './components/serviciosOfrecidos/ser
 import { ServiciosOfrecidos2Component } from './components/serviciosOfrecidos2/serviciosOfrecidos2.component';
 import { EspecialidadesComponent } from './components/especialidades/especialidades.component';
 import { ProcedimientosComponent } from './components/procedimientos/procedimientos.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
+import { SubespecialidadesComponent } from './components/subespecialidades/subespecialidades.component';
 
 
 @NgModule({
@@ -32,8 +35,8 @@ import { ProcedimientosComponent } from './components/procedimientos/procedimien
     ServiciosOfrecidosComponent,
     ServiciosOfrecidos2Component,
     EspecialidadesComponent,
-    ProcedimientosComponent
-
+    ProcedimientosComponent,
+    SubespecialidadesComponent
    ],
   imports: [
     BrowserModule,
@@ -41,6 +44,8 @@ import { ProcedimientosComponent } from './components/procedimientos/procedimien
     BrowserAnimationsModule,
     MatTabsModule,
     FontAwesomeModule,
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -29,3 +29,18 @@
   justify-content: center;
   font-family: Zapf Chancery, cursive;
 }
+.mat-flat-button{
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: Zapf Chancery, cursive;
+}
+.mat-flat-button:hover{
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 18px;
+  color: #55a38b;
+  font-weight: bolder;
+  font-family: Zapf Chancery, cursive;
+}

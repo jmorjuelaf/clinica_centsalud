@@ -7,7 +7,7 @@
       <div *ngFor="let especialidad of especialidad.especialidades" class="wrapper" >
         <img src="assets/img/icons/{{especialidad.icono}}" width="64px"
             class="ico">
-          <p>{{especialidad.nombre_servicio}}</p>
+          <p><button mat-flat-button mat-flat-button [routerLink]="['./subespecialidades']">{{especialidad.nombre_servicio}}</button></p>
       </div>
     </div>
   </div>
