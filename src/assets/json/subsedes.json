@@ -1,0 +1,494 @@
+[
+  {
+    "nombre_sede": "Sede Monteria",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
+    "icono": "Monteria.png",
+    "Contactenos": {
+      "Telefono": "+57 3131234567458",
+      "Whatsapp": "+57 3145769841584",
+      "Correo": "cliente@centsaludips.org",
+      "sede_principal": " Cl 28 # 9 - 80"
+    },
+    "instalaciones": ["sede1.jpg", "sede2.jpg", "sede3.jpg"],
+    "especialidades": [
+      {
+        "nombre_servicio": "Psicología",
+        "icono": "psicologia.ico"
+      },
+      {
+        "nombre_servicio": "Odontología",
+        "icono": "odontologia.ico"
+      },
+      {
+        "nombre_servicio": "Dermatología",
+        "icono": "dermatologia.ico"
+      },
+      {
+        "nombre_servicio": "Pediatría",
+        "icono": "pediatria.ico"
+      },
+      {
+        "nombre_servicio": "Medicina interna",
+        "icono": "medicina.ico"
+      },
+      {
+        "nombre_servicio": "Enfermería",
+        "icono": "enfermeria.ico"
+      },
+      {
+        "nombre_servicio": "Cardiología",
+        "icono": "cardiologia.ico"
+      },
+      {
+        "nombre_servicio": "Otros Servicios",
+        "ruta": "./servicios/especialidades",
+        "icono": "otros1.ico"
+      }
+    ],
+    "procedimientos": [
+      {
+        "nombre_servicio": "Ecocardiogramas",
+        "icono": "ecocardiograma.ico"
+      },
+      {
+        "nombre_servicio": "Terapias físicas",
+        "icono": "fisioterapia.ico"
+      },
+      {
+        "nombre_servicio": "Electrocardiogramas",
+        "icono": "electrocardiograma.ico"
+      },
+      {
+        "nombre_servicio": "Ecografías",
+        "icono": "ecografia.ico"
+      },
+      {
+        "nombre_servicio": "Rayos X",
+        "icono": "rayosx.ico"
+      },
+      {
+        "nombre_servicio": "Holter",
+        "icono": "holter.ico"
+      },
+      {
+        "nombre_servicio": "Espirometría",
+        "icono": "espirometria.ico"
+      },
+      {
+        "nombre_servicio": "Otros Servicios",
+        "ruta": "./servicios/especialidades",
+        "icono": "otros2.ico"
+      }
+    ]
+  },
+  {
+    "nombre_sede": "Sede Cartagena",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
+    "icono": "Cartagena.png",
+    "Contactenos": {
+      "Telefono": "+57 3131234567458",
+      "Whatsapp": "+57 3145769841584",
+      "Correo": "cliente@centsaludips.org",
+      "sede_principal": "Cl. 29d # 29 b - 57"
+    },
+    "instalaciones": ["sede1.jpg", "sede2.jpg", "sede3.jpg"],
+    "especialidades": [
+      {
+        "nombre_servicio": "Psicología",
+        "icono": "psicologia.ico"
+      },
+      {
+        "nombre_servicio": "Odontología",
+        "icono": "odontologia.ico"
+      },
+      {
+        "nombre_servicio": "Dermatología",
+        "icono": "dermatologia.ico"
+      },
+      {
+        "nombre_servicio": "Pediatría",
+        "icono": "pediatria.ico"
+      },
+      {
+        "nombre_servicio": "Medicina interna",
+        "icono": "medicina.ico"
+      },
+      {
+        "nombre_servicio": "Enfermería",
+        "icono": "enfermeria.ico"
+      },
+      {
+        "nombre_servicio": "Cardiología",
+        "icono": "cardiologia.ico"
+      },
+      {
+        "nombre_servicio": "Otros Servicios",
+        "ruta": "./servicios/especialidades",
+        "icono": "otros1.ico"
+      }
+    ],
+    "procedimientos": [
+      {
+        "nombre_servicio": "Ecocardiogramas",
+        "icono": "ecocardiograma.ico"
+      },
+      {
+        "nombre_servicio": "Terapias físicas",
+        "icono": "fisioterapia.ico"
+      },
+      {
+        "nombre_servicio": "Electrocardiogramas",
+        "icono": "electrocardiograma.ico"
+      },
+      {
+        "nombre_servicio": "Ecografías",
+        "icono": "ecografia.ico"
+      },
+      {
+        "nombre_servicio": "Rayos X",
+        "icono": "rayosx.ico"
+      },
+      {
+        "nombre_servicio": "Holter",
+        "icono": "holter.ico"
+      },
+      {
+        "nombre_servicio": "Espirometría",
+        "icono": "espirometria.ico"
+      },
+      {
+        "nombre_servicio": "Otros Servicios",
+        "ruta": "./servicios/especialidades",
+        "icono": "otros2.ico"
+      }
+    ]
+  },
+  {
+    "nombre_sede": "Sede Honda - Tolima",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
+    "icono": "Honda.png",
+    "Contactenos": {
+      "Telefono": "+57 3131234567458",
+      "Whatsapp": "+57 3145769841584",
+      "Correo": "cliente@centsaludips.org",
+      "sede_principal": "cra 10 # 86 - 39"
+    },
+    "instalaciones": ["sede1.jpg", "sede2.jpg", "sede3.jpg"],
+    "especialidades": [
+      {
+        "nombre_servicio": "Psicología",
+        "icono": "psicologia.ico"
+      },
+      {
+        "nombre_servicio": "Odontología",
+        "icono": "odontologia.ico"
+      },
+      {
+        "nombre_servicio": "Dermatología",
+        "icono": "dermatologia.ico"
+      },
+      {
+        "nombre_servicio": "Pediatría",
+        "icono": "pediatria.ico"
+      },
+      {
+        "nombre_servicio": "Medicina interna",
+        "icono": "medicina.ico"
+      },
+      {
+        "nombre_servicio": "Enfermería",
+        "icono": "enfermeria.ico"
+      },
+      {
+        "nombre_servicio": "Cardiología",
+        "icono": "cardiologia.ico"
+      },
+      {
+        "nombre_servicio": "Otros Servicios",
+        "ruta": "./servicios/especialidades",
+        "icono": "otros1.ico"
+      }
+    ],
+    "procedimientos": [
+      {
+        "nombre_servicio": "Ecocardiogramas",
+        "icono": "ecocardiograma.ico"
+      },
+      {
+        "nombre_servicio": "Terapias físicas",
+        "icono": "fisioterapia.ico"
+      },
+      {
+        "nombre_servicio": "Electrocardiogramas",
+        "icono": "electrocardiograma.ico"
+      },
+      {
+        "nombre_servicio": "Ecografías",
+        "icono": "ecografia.ico"
+      },
+      {
+        "nombre_servicio": "Rayos X",
+        "icono": "rayosx.ico"
+      },
+      {
+        "nombre_servicio": "Holter",
+        "icono": "holter.ico"
+      },
+      {
+        "nombre_servicio": "Espirometría",
+        "icono": "espirometria.ico"
+      },
+      {
+        "nombre_servicio": "Otros Servicios",
+        "ruta": "./servicios/especialidades",
+        "icono": "otros2.ico"
+      }
+    ]
+  },
+  {
+    "nombre_sede": "Sede Ibagué",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
+    "icono": "Ibague.png",
+    "Contactenos": {
+      "Telefono": "+57 3131234567458",
+      "Whatsapp": "+57 3145769841584",
+      "Correo": "cliente@centsaludips.org",
+      "sede_principal": "Calle 44A # 5 - 88"
+    },
+    "instalaciones": ["sede1.jpg", "sede2.jpg", "sede3.jpg"],
+    "especialidades": [
+      {
+        "nombre_servicio": "Psicología",
+        "icono": "psicologia.ico"
+      },
+      {
+        "nombre_servicio": "Odontología",
+        "icono": "odontologia.ico"
+      },
+      {
+        "nombre_servicio": "Dermatología",
+        "icono": "dermatologia.ico"
+      },
+      {
+        "nombre_servicio": "Pediatría",
+        "icono": "pediatria.ico"
+      },
+      {
+        "nombre_servicio": "Medicina interna",
+        "icono": "medicina.ico"
+      },
+      {
+        "nombre_servicio": "Enfermería",
+        "icono": "enfermeria.ico"
+      },
+      {
+        "nombre_servicio": "Cardiología",
+        "icono": "cardiologia.ico"
+      },
+      {
+        "nombre_servicio": "Otros Servicios",
+        "ruta": "./servicios/especialidades",
+        "icono": "otros1.ico"
+      }
+    ],
+    "procedimientos": [
+      {
+        "nombre_servicio": "Ecocardiogramas",
+        "icono": "ecocardiograma.ico"
+      },
+      {
+        "nombre_servicio": "Terapias físicas",
+        "icono": "fisioterapia.ico"
+      },
+      {
+        "nombre_servicio": "Electrocardiogramas",
+        "icono": "electrocardiograma.ico"
+      },
+      {
+        "nombre_servicio": "Ecografías",
+        "icono": "ecografia.ico"
+      },
+      {
+        "nombre_servicio": "Rayos X",
+        "icono": "rayosx.ico"
+      },
+      {
+        "nombre_servicio": "Holter",
+        "icono": "holter.ico"
+      },
+      {
+        "nombre_servicio": "Espirometría",
+        "icono": "espirometria.ico"
+      },
+      {
+        "nombre_servicio": "Otros Servicios",
+        "ruta": "./servicios/especialidades",
+        "icono": "otros2.ico"
+      }
+    ]
+  },
+  {
+    "nombre_sede": "Sede Líbano",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
+    "icono": "Libano.png",
+    "Contactenos": {
+      "Telefono": "+57 3131234567458",
+      "Whatsapp": "+57 3145769841584",
+      "Correo": "cliente@centsaludips.org",
+      "sede_principal": "Cra. 8 #3-85"
+    },
+    "instalaciones": ["sede1.jpg", "sede2.jpg", "sede3.jpg"],
+    "especialidades": [
+      {
+        "nombre_servicio": "Psicología",
+        "icono": "psicologia.ico"
+      },
+      {
+        "nombre_servicio": "Odontología",
+        "icono": "odontologia.ico"
+      },
+      {
+        "nombre_servicio": "Dermatología",
+        "icono": "dermatologia.ico"
+      },
+      {
+        "nombre_servicio": "Pediatría",
+        "icono": "pediatria.ico"
+      },
+      {
+        "nombre_servicio": "Medicina interna",
+        "icono": "medicina.ico"
+      },
+      {
+        "nombre_servicio": "Enfermería",
+        "icono": "enfermeria.ico"
+      },
+      {
+        "nombre_servicio": "Cardiología",
+        "icono": "cardiologia.ico"
+      },
+      {
+        "nombre_servicio": "Otros Servicios",
+        "ruta": "./servicios/especialidades",
+        "icono": "otros1.ico"
+      }
+    ],
+    "procedimientos": [
+      {
+        "nombre_servicio": "Ecocardiogramas",
+        "icono": "ecocardiograma.ico"
+      },
+      {
+        "nombre_servicio": "Terapias físicas",
+        "icono": "fisioterapia.ico"
+      },
+      {
+        "nombre_servicio": "Electrocardiogramas",
+        "icono": "electrocardiograma.ico"
+      },
+      {
+        "nombre_servicio": "Ecografías",
+        "icono": "ecografia.ico"
+      },
+      {
+        "nombre_servicio": "Rayos X",
+        "icono": "rayosx.ico"
+      },
+      {
+        "nombre_servicio": "Holter",
+        "icono": "holter.ico"
+      },
+      {
+        "nombre_servicio": "Espirometría",
+        "icono": "espirometria.ico"
+      },
+      {
+        "nombre_servicio": "Otros Servicios",
+        "ruta": "./servicios/especialidades",
+        "icono": "otros2.ico"
+      }
+    ]
+  },
+  {
+    "nombre_sede": "Sede Bogotá",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
+    "icono": "Bogota.png",
+    "Contactenos": {
+      "Telefono": "+57 3131234567458",
+      "Whatsapp": "+57 3145769841584",
+      "Correo": "cliente@centsaludips.org",
+      "sede_principal": "Carrera 19 # 106 - 30 "
+    },
+    "instalaciones": ["sede1.jpg", "sede2.jpg", "sede3.jpg"],
+    "especialidades": [
+      {
+        "nombre_servicio": "Psicología",
+        "icono": "psicologia.ico"
+      },
+      {
+        "nombre_servicio": "Odontología",
+        "icono": "odontologia.ico"
+      },
+      {
+        "nombre_servicio": "Dermatología",
+        "icono": "dermatologia.ico"
+      },
+      {
+        "nombre_servicio": "Pediatría",
+        "icono": "pediatria.ico"
+      },
+      {
+        "nombre_servicio": "Medicina interna",
+        "icono": "medicina.ico"
+      },
+      {
+        "nombre_servicio": "Enfermería",
+        "icono": "enfermeria.ico"
+      },
+      {
+        "nombre_servicio": "Cardiología",
+        "icono": "cardiologia.ico"
+      },
+      {
+        "nombre_servicio": "Otros Servicios",
+        "ruta": "./servicios/especialidades",
+        "icono": "otros1.ico"
+      }
+    ],
+    "procedimientos": [
+      {
+        "nombre_servicio": "Ecocardiogramas",
+        "icono": "ecocardiograma.ico"
+      },
+      {
+        "nombre_servicio": "Terapias físicas",
+        "icono": "fisioterapia.ico"
+      },
+      {
+        "nombre_servicio": "Electrocardiogramas",
+        "icono": "electrocardiograma.ico"
+      },
+      {
+        "nombre_servicio": "Ecografías",
+        "icono": "ecografia.ico"
+      },
+      {
+        "nombre_servicio": "Rayos X",
+        "icono": "rayosx.ico"
+      },
+      {
+        "nombre_servicio": "Holter",
+        "icono": "holter.ico"
+      },
+      {
+        "nombre_servicio": "Espirometría",
+        "icono": "espirometria.ico"
+      },
+      {
+        "nombre_servicio": "Otros Servicios",
+        "ruta": "./servicios/especialidades",
+        "icono": "otros2.ico"
+      }
+    ]
+  }
+]
