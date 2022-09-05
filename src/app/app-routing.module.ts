@@ -11,6 +11,8 @@ import { SedesComponent } from './components/sedes/sedes.component';
 import { ServiciosComponent } from './components/servicios/servicios.component';
 import { ServiciosOfrecidosComponent } from './components/serviciosOfrecidos/serviciosOfrecidos.component';
 import { ServiciosOfrecidos2Component } from './components/serviciosOfrecidos2/serviciosOfrecidos2.component';
+import { SubprocedimientosComponent } from './components/subprocedimientos/subprocedimientos.component';
+import { SubsedesComponent } from './components/subsedes/subsedes.component';
 
 
 const routes: Routes = [
@@ -43,8 +45,8 @@ const routes: Routes = [
       component: ProcedimientosComponent
     },
     {
-      path: 'subespecialidades',
-      component: SubespecialidadesComponent,
+      path: 'subprocedimientos/:nombre_servicio',
+      component: SubprocedimientosComponent,
     },
   ]
 },
@@ -54,7 +56,13 @@ const routes: Routes = [
   },
   {
     path:'sedes',
-    component:SedesComponent
+    component:SedesComponent,
+    children: [
+      {
+        path: 'subsedes/:nombre_sede',
+        component: SubsedesComponent,
+      },
+    ]
   },
   {
     path:'noticias',

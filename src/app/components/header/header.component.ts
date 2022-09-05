@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
-  links = ['./inicio', './servicios', './nosotros','./sedes','./noticias','./contactenos',];
-  menu = ['Inicio', 'Servicios', 'Nosotros', 'Sedes', 'Noticias', 'Contáctenos'];
+  links = ['./inicio', './servicios', './nosotros','./sedes','./noticias'];
+  menu = ['Inicio', 'Servicios', 'Nosotros', 'Sedes', 'Noticias'];
   activeLink = this.links[1];
 } 

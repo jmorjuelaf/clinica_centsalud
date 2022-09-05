@@ -4,3 +4,28 @@
     color: #72bb53;
     font-family: Zapf Chancery, cursive;
 }
+.page-container {
+    width: 100%;
+  }
+  
+  .chains {
+    width: 100%;
+    display: block;
+    overflow-x: scroll;
+  }
+  
+  .chains mat-card {
+    display: inline-block;
+  }
+  
+  mat-card {
+    width: 23%;
+    height: 23%;
+    margin: 30px;
+  }
+  .mat-card-image:first-child {
+    margin-top: -5px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+  }
+  

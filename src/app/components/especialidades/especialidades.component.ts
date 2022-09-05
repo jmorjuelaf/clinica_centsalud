@@ -17,5 +17,4 @@ export class EspecialidadesComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

@@ -2,22 +2,38 @@ import { Component, OnInit} from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
 import listadeEspecialidades from '/src/assets/json/especialidades.json';
 
-
 @Component({
   selector: 'app-subespecialidades',
   templateUrl: './subespecialidades.component.html',
   styleUrls: ['./subespecialidades.component.css']
 })
 export class SubespecialidadesComponent implements OnInit {
+  servicioSeleccionado: any;
+  instalaciones_esp: string ="Nuestras instalaciones en ";
+  sedes_esp: string ="Nuestras sedes en ";
+
 
   constructor(private activatedRoute: ActivatedRoute) { }
-  nombre_servicio: any=listadeEspecialidades;
-
 
   ngOnInit(): void {
     this.activatedRoute.paramMap.subscribe((parametros: ParamMap) => {
-      this.nombre_servicio = parseInt(parametros.get("nombre_servicio")!);
+      const nombreServicio = parametros.get("nombre_servicio");
 
+      if (nombreServicio) {
+        this.seleccionarServicio(nombreServicio)
+      }
     })
   }
+  seleccionarServicio(nombre: string) {
+    for (let especialidad of listadeEspecialidades) {
+      if (especialidad.nombre_servicio === nombre) {
+        this.servicioSeleccionado = especialidad
+        return
+      }
+    }
+
+  }
 }
+
+
+

@@ -1,0 +1,31 @@
+[
+  {
+    "nombre": "prueba",
+    "sedes": [
+      {
+        "nombre_sede": "Sede Monteria",
+        "icono": "Monteria.png"
+      },
+      {
+        "nombre_sede": "Sede Cartagena",
+        "icono": "Cartagena.png"
+      },
+      {
+        "nombre_sede": "Sede Honda - Tolima",
+        "icono": "Honda.png"
+      },
+      {
+        "nombre_sede": "Sede Ibagué",
+        "icono": "Ibague.png"
+      },
+      {
+        "nombre_sede": "Sede Líbano",
+        "icono": "Libano.png"
+      },
+      {
+        "nombre_sede": "Sede Bogotá",
+        "icono": "Bogota.png"
+      }
+    ]
+  }
+]

@@ -7,11 +7,11 @@
         "icono": "psicologia.ico"
       },
       {
-        "nombre_servicio": "Odontologia",
-        "icono": "odontologia.ico"
+    "nombre_servicio": "Odontología",
+    "icono": "odontologia.ico"
       },
       {
-        "nombre_servicio": "Dermatologia",
+        "nombre_servicio": "Dermatología",
         "icono": "dermatologia.ico"
       },
       {
@@ -19,7 +19,7 @@
         "icono": "pediatria.ico"
       },
       {
-        "nombre_servicio": "Medicina Interna",
+        "nombre_servicio": "Medicina interna",
         "icono": "medicina.ico"
       },
       {
@@ -32,6 +32,7 @@
       },
       {
         "nombre_servicio": "Otros Servicios",
+        "ruta":"./servicios/especialidades",
         "icono": "otros1.ico"
       }
     ]
@@ -40,7 +41,7 @@
     "descripcion_proc": "Nuestros Procedimientos",
     "procedimientos": [
       {
-        "nombre_servicio": "Eco cardiograma",
+        "nombre_servicio": "Ecocardiogramas",
         "icono": "ecocardiograma.ico"
       },
       {
@@ -48,11 +49,11 @@
         "icono": "fisioterapia.ico"
       },
       {
-        "nombre_servicio": "Electro cardiograma",
+        "nombre_servicio": "Electrocardiogramas",
         "icono": "electrocardiograma.ico"
       },
       {
-        "nombre_servicio": "Ecografía",
+        "nombre_servicio": "Ecografías",
         "icono": "ecografia.ico"
       },
       {
@@ -69,6 +70,7 @@
       },
       {
         "nombre_servicio": "Otros Servicios",
+        "ruta":"./servicios/especialidades",
         "icono": "otros2.ico"
       }
     ]

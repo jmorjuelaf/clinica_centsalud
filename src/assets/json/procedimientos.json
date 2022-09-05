@@ -1,0 +1,192 @@
+[
+    {
+      "nombre_servicio": "Ecocardiogramas",
+      "icono": "ecocardiograma.ico",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
+      "instalaciones": [
+        "Ecocardiograma1.png",
+        "Ecocardiograma2.png",
+        "Ecocardiograma3.png",
+        "Ecocardiograma4.png",
+        "Ecocardiograma5.png",
+        "Ecocardiograma6.png"
+      ],
+      "sedes": [
+        {
+          "nombre_sede": "Sede Monteria",
+          "icono": "Monteria.png"
+        },
+        {
+          "nombre_sede": "Sede Cartagena",
+          "icono": "Cartagena.png"
+        },
+        {
+          "nombre_sede": "Sede Honda - Tolima",
+          "icono": "Honda.png"
+        }
+      ]
+    },
+    {
+      "nombre_servicio": "Terapias físicas",
+      "icono": "fisioterapia.ico",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
+      "instalaciones": [
+        "Fisioterapia1.png",
+        "Fisioterapia2.png",
+        "Fisioterapia3.png",
+        "Fisioterapia4.png",
+        "Fisioterapia5.png",
+        "Fisioterapia6.png"
+      ],
+      "sedes": [
+        {
+          "nombre_sede": "Sede Monteria",
+          "icono": "Monteria.png"
+        },
+        {
+          "nombre_sede": "Sede Cartagena",
+          "icono": "Cartagena.png"
+        },
+        {
+          "nombre_sede": "Sede Honda - Tolima",
+          "icono": "Honda.png"
+        }
+      ]
+    },
+    {
+      "nombre_servicio": "Electrocardiogramas",
+      "icono": "electrocardiograma.ico",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
+      "instalaciones": [
+        "Electro1.png",
+        "Electro2.png",
+        "Electro3.png",
+        "Electro4.png",
+        "Electro5.png",
+        "Electro6.png"
+      ],
+      "sedes": [
+        {
+          "nombre_sede": "Sede Monteria",
+          "icono": "Monteria.png"
+        },
+        {
+          "nombre_sede": "Sede Cartagena",
+          "icono": "Cartagena.png"
+        },
+        {
+          "nombre_sede": "Sede Honda - Tolima",
+          "icono": "Honda.png"
+        }
+      ]
+    },
+    {
+      "nombre_servicio": "Ecografías",
+      "icono": "ecografia.ico",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
+      "instalaciones": [
+        "Ecografias1.png",
+        "Ecografias2.png",
+        "Ecografias3.png",
+        "Ecografias4.png",
+        "Ecografias5.png",
+        "Ecografias6.png"
+      ],
+      "sedes": [
+        {
+          "nombre_sede": "Sede Monteria",
+          "icono": "Monteria.png"
+        },
+        {
+          "nombre_sede": "Sede Cartagena",
+          "icono": "Cartagena.png"
+        },
+        {
+          "nombre_sede": "Sede Honda - Tolima",
+          "icono": "Honda.png"
+        }
+      ]
+    },
+    {
+      "nombre_servicio": "Rayos X",
+      "icono": "rayosx.ico",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
+      "instalaciones": [
+        "RayosX1.png",
+        "RayosX2.png",
+        "RayosX3.png",
+        "RayosX4.png",
+        "RayosX5.png",
+        "RayosX6.png"
+      ],
+      "sedes": [
+        {
+          "nombre_sede": "Sede Monteria",
+          "icono": "Monteria.png"
+        },
+        {
+          "nombre_sede": "Sede Cartagena",
+          "icono": "Cartagena.png"
+        },
+        {
+          "nombre_sede": "Sede Honda - Tolima",
+          "icono": "Honda.png"
+        }
+      ]
+    },
+    {
+      "nombre_servicio": "Holter",
+      "icono": "holter.ico",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
+      "instalaciones": [
+        "Holter1.png",
+        "Holter2.png",
+        "Holter3.png",
+        "Holter4.png",
+        "Holter5.png",
+        "Holter6.png"
+      ],
+      "sedes": [
+        {
+          "nombre_sede": "Sede Monteria",
+          "icono": "Monteria.png"
+        },
+        {
+          "nombre_sede": "Sede Cartagena",
+          "icono": "Cartagena.png"
+        },
+        {
+          "nombre_sede": "Sede Honda - Tolima",
+          "icono": "Honda.png"
+        }
+      ]
+    },
+    {
+      "nombre_servicio": "Espirometría",
+      "icono": "espirometria.ico",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
+      "instalaciones": [
+        "Espirometria1.png",
+        "Espirometria2.png",
+        "Espirometria3.png",
+        "Espirometria4.png",
+        "Espirometria5.png",
+        "Espirometria6.png"
+      ],
+      "sedes": [
+        {
+          "nombre_sede": "Sede Monteria",
+          "icono": "Monteria.png"
+        },
+        {
+          "nombre_sede": "Sede Cartagena",
+          "icono": "Cartagena.png"
+        },
+        {
+          "nombre_sede": "Sede Honda - Tolima",
+          "icono": "Honda.png"
+        }
+      ]
+    }
+  ]
+  

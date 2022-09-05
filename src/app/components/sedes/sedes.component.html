@@ -1,7 +1,26 @@
 <body>
+  <p></p>
   <div class="container">
     <div class="titulo">
         <p><strong>{{title}}</strong> </p>
     </div>
   </div>
+  <section>
+  <div class="page-container" style="text-align: center;">
+    <div class="chains">
+      <div *ngFor="let sede of sedes">
+        <mat-card *ngFor="let sede of sede.sedes" class="mat-elevation-z7">
+        <img mat-card-image src="assets/img/sedes/{{sede.icono}}">
+        <mat-card-content>
+          <p>
+            <button mat-flat-button routerLink="./subsedes/{{sede.nombre_sede}}">
+              {{sede.nombre_sede}}</button></p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+    </div>
+    <router-outlet></router-outlet>
+  </div>
+  </section>
   </body>
+

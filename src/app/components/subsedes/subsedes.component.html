@@ -1,0 +1,27 @@
+<body>
+<p>
+  subsedes works!
+</p>
+<p></p>
+<!--=====Sección descripción e ícono especialistas====-->
+<section class="servicios">
+  <div class="container col-lg-12 pt-lg-2">
+    <div class="row">
+      <div class="col-lg-4 pt-lg-5">
+        <aside class="icono-especialidad">
+          <img src="assets/img/sedes/{{sedeSeleccionada?.icono}}"
+            width="128px"
+            class="ico"><p>
+            <p class="nombre-icono"><strong>{{sedeSeleccionada?.nombre_sede}}</strong>
+            </p>
+          </aside>
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-4 content aos-init aos-animate">
+          <div class="descripcion">
+            <p>{{sedeSeleccionada?.descripcion}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
