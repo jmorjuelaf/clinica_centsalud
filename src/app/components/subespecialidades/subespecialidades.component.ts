@@ -1,6 +1,7 @@
 import { Component, OnInit} from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
 import listadeEspecialidades from '/src/assets/json/especialidades.json';
+import listadeSedes from '/src/assets/json/sedes.json';
 
 @Component({
   selector: 'app-subespecialidades',
@@ -11,6 +12,7 @@ export class SubespecialidadesComponent implements OnInit {
   servicioSeleccionado: any;
   instalaciones_esp: string ="Nuestras instalaciones en ";
   sedes_esp: string ="Nuestras sedes en ";
+  sedes:any= listadeSedes;
 
 
   constructor(private activatedRoute: ActivatedRoute) { }

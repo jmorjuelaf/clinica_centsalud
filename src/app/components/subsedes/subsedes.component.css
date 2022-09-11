@@ -1,0 +1,82 @@
+.titulo{
+  font-size: 36px;
+  text-align: center;
+  color: #72bb53;
+  font-family: Zapf Chancery, cursive;
+}
+::ng-deep.nombre-icono {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 18px;
+  color: #000;
+}
+mat-card {
+  width: 80%;
+  height: 95%;
+  margin: 0px;
+}
+li{
+  font-family: Zapf Chancery, cursive;
+  line-height: 3;
+}
+ul {
+  list-style: none;
+}
+::ng-deep.carousel-item {
+  float: center !important;
+}
+::ng-deep.carousel-control-prev, .carousel-control-next{
+align-items: center;
+justify-content: center;
+width: 60%;
+padding: 0;
+}
+.titulo_descripcion{
+  text-align: center;
+  font-family: Helvetica;
+  color: #6f6f6f;
+  font-size: 18px;
+  height: 30px;
+}
+.principal_esp {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.principal_esp div {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: Zapf Chancery, cursive;
+  background: radial-gradient(circle, #d1eaf1 0%, #ffff 100%);
+}
+.mat-flat-button{
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: Zapf Chancery, cursive;
+}
+.mat-flat-button:hover{
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 18px;
+  color: #ffa834;
+  font-weight: bolder;
+  font-family: Zapf Chancery, cursive;
+}
+.principal_proc {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.principal_proc div {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: Zapf Chancery, cursive;
+  background: radial-gradient(circle, #d1eaf1 0%, #ffff 100%);
+}
+

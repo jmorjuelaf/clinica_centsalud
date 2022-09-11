@@ -4,25 +4,25 @@
     "icono": "psicologia.ico",
     "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
     "instalaciones": [
-      "Psicologia1.png",
-      "Psicologia2.png",
-      "Psicologia3.png",
-      "Psicologia4.png",
-      "Psicologia5.png",
-      "Psicologia6.png"
+      "Psicologia1.jpg",
+      "Psicologia2.jpg",
+      "Psicologia3.jpg",
+      "Psicologia4.jpg",
+      "Psicologia5.jpg",
+      "Psicologia6.jpg"
     ],
     "sedes": [
       {
-        "nombre_sede": "Sede Monteria",
-        "icono": "Monteria.png"
+        "nombre_sede": "Sede Montería",
+        "icono": "Monteria.jpg"
       },
       {
         "nombre_sede": "Sede Cartagena",
-        "icono": "Cartagena.png"
+        "icono": "Cartagena.jpg"
       },
       {
-        "nombre_sede": "Sede Honda",
-        "icono": "Honda.png"
+        "nombre_sede": "Sede Honda - Tolima",
+        "icono": "Honda.jpg"
       }
     ]
   },
@@ -31,25 +31,25 @@
     "icono": "ginecologia.ico",
     "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
     "instalaciones": [
-      "Ginecologia1.png",
-      "Ginecologia2.png",
-      "Ginecologia3.png",
-      "Ginecologia4.png",
-      "Ginecologia5.png",
-      "Ginecologia6.png"
+      "Ginecologia1.jpg",
+      "Ginecologia2.jpg",
+      "Ginecologia3.jpg",
+      "Ginecologia4.jpg",
+      "Ginecologia5.jpg",
+      "Ginecologia6.jpg"
     ],
     "sedes": [
       {
-        "nombre_sede": "Sede Monteria",
-        "icono": "Monteria.png"
+        "nombre_sede": "Sede Ibagué",
+        "icono": "Ibague.jpg"
       },
       {
-        "nombre_sede": "Sede Cartagena",
-        "icono": "Cartagena.png"
+        "nombre_sede": "Sede Líbano - Tolima",
+        "icono": "Libano.jpg"
       },
       {
-        "nombre_sede": "Sede Honda - Tolima",
-        "icono": "Honda.png"
+        "nombre_sede": "Sede Bogotá",
+        "icono": "Bogota.jpg"
       }
     ]
   },
@@ -58,25 +58,25 @@
     "icono": "dermatologia.ico",
     "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
     "instalaciones": [
-      "Dermatologia1.png",
-      "Dermatologia2.png",
-      "Dermatologia3.png",
-      "Dermatologia4.png",
-      "Dermatologia5.png",
-      "Dermatologia6.png"
+      "Dermatologia1.jpg",
+      "Dermatologia2.jpg",
+      "Dermatologia3.jpg",
+      "Dermatologia4.jpg",
+      "Dermatologia5.jpg",
+      "Dermatologia6.jpg"
     ],
     "sedes": [
       {
-        "nombre_sede": "Sede Monteria",
-        "icono": "Monteria.png"
+        "nombre_sede": "Sede Montería",
+        "icono": "Monteria.jpg"
       },
       {
-        "nombre_sede": "Sede Cartagena",
-        "icono": "Cartagena.png"
+        "nombre_sede": "Sede Líbano - Tolima",
+        "icono": "Libano.jpg"
       },
       {
-        "nombre_sede": "Sede Honda - Tolima",
-        "icono": "Honda.png"
+        "nombre_sede": "Sede Bogotá",
+        "icono": "Bogota.jpg"
       }
     ]
   },
@@ -85,25 +85,25 @@
     "icono": "pediatria.ico",
     "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
     "instalaciones": [
-      "Pediatria1.png",
-      "Pediatria2.png",
-      "Pediatria3.png",
-      "Pediatria4.png",
-      "Pediatria5.png",
-      "Pediatria6.png"
+      "Pediatria1.jpg",
+      "Pediatria2.jpg",
+      "Pediatria3.jpg",
+      "Pediatria4.jpg",
+      "Pediatria5.jpg",
+      "Pediatria6.jpg"
     ],
     "sedes": [
       {
-        "nombre_sede": "Sede Monteria",
-        "icono": "Monteria.png"
-      },
-      {
-        "nombre_sede": "Sede Cartagena",
-        "icono": "Cartagena.png"
-      },
-      {
         "nombre_sede": "Sede Honda - Tolima",
-        "icono": "Honda.png"
+        "icono": "Honda.jpg"
+      },
+      {
+        "nombre_sede": "Sede Ibagué",
+        "icono": "Ibague.jpg"
+      },
+      {
+        "nombre_sede": "Sede Bogotá",
+        "icono": "Bogota.jpg"
       }
     ]
   },
@@ -112,25 +112,25 @@
     "icono": "interna.ico",
     "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
     "instalaciones": [
-      "Interna1.png",
-      "Interna2.png",
-      "Interna3.png",
-      "Interna4.png",
-      "Interna5.png",
-      "Interna6.png"
+      "Interna1.jpg",
+      "Interna2.jpg",
+      "Interna3.jpg",
+      "Interna4.jpg",
+      "Interna5.jpg",
+      "Interna6.jpg"
     ],
     "sedes": [
       {
-        "nombre_sede": "Sede Monteria",
-        "icono": "Monteria.png"
-      },
-      {
-        "nombre_sede": "Sede Cartagena",
-        "icono": "Cartagena.png"
-      },
-      {
         "nombre_sede": "Sede Honda - Tolima",
-        "icono": "Honda.png"
+        "icono": "Honda.jpg"
+      },
+      {
+        "nombre_sede": "Sede Ibagué",
+        "icono": "Ibague.jpg"
+      },
+      {
+        "nombre_sede": "Sede Bogotá",
+        "icono": "Bogota.jpg"
       }
     ]
   },
@@ -139,25 +139,25 @@
     "icono": "enfermeria.ico",
     "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
     "instalaciones": [
-      "Enfermeria1.png",
-      "Enfermeria2.png",
-      "Enfermeria3.png",
-      "Enfermeria4.png",
-      "Enfermeria5.png",
-      "Enfermeria6.png"
+      "Enfermeria1.jpg",
+      "Enfermeria2.jpg",
+      "Enfermeria3.jpg",
+      "Enfermeria4.jpg",
+      "Enfermeria5.jpg",
+      "Enfermeria6.jpg"
     ],
     "sedes": [
       {
-        "nombre_sede": "Sede Monteria",
-        "icono": "Monteria.png"
+        "nombre_sede": "Sede Montería",
+        "icono": "Monteria.jpg"
       },
       {
         "nombre_sede": "Sede Cartagena",
-        "icono": "Cartagena.png"
+        "icono": "Cartagena.jpg"
       },
       {
-        "nombre_sede": "Sede Honda - Tolima",
-        "icono": "Honda.png"
+        "nombre_sede": "Sede Líbano - Tolima",
+        "icono": "Libano.jpg"
       }
     ]
   },
@@ -166,25 +166,25 @@
     "icono": "cardiologia.ico",
     "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
     "instalaciones": [
-      "Cardiologia1.png",
-      "Cardiologia2.png",
-      "Cardiologia3.png",
-      "Cardiologia4.png",
-      "Cardiologia5.png",
-      "Cardiologia6.png"
+      "Cardiologia1.jpg",
+      "Cardiologia2.jpg",
+      "Cardiologia3.jpg",
+      "Cardiologia4.jpg",
+      "Cardiologia5.jpg",
+      "Cardiologia6.jpg"
     ],
     "sedes": [
       {
-        "nombre_sede": "Sede Monteria",
-        "icono": "Monteria.png"
-      },
-      {
-        "nombre_sede": "Sede Cartagena",
-        "icono": "Cartagena.png"
-      },
-      {
         "nombre_sede": "Sede Honda - Tolima",
-        "icono": "Honda.png"
+        "icono": "Honda.jpg"
+      },
+      {
+        "nombre_sede": "Sede Ibagué",
+        "icono": "Ibague.jpg"
+      },
+      {
+        "nombre_sede": "Sede Bogotá",
+        "icono": "Bogota.jpg"
       }
     ]
   },
@@ -193,25 +193,25 @@
     "icono": "medicina.ico",
     "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
     "instalaciones": [
-      "Medicina1.png",
-      "Medicina2.png",
-      "Medicina3.png",
-      "Medicina4.png",
-      "Medicina5.png",
-      "Medicina6.png"
+      "Medicina1.jpg",
+      "Medicina2.jpg",
+      "Medicina3.jpg",
+      "Medicina4.jpg",
+      "Medicina5.jpg",
+      "Medicina6.jpg"
     ],
     "sedes": [
       {
-        "nombre_sede": "Sede Monteria",
-        "icono": "Monteria.png"
+        "nombre_sede": "Sede Montería",
+        "icono": "Monteria.jpg"
       },
       {
         "nombre_sede": "Sede Cartagena",
-        "icono": "Cartagena.png"
+        "icono": "Cartagena.jpg"
       },
       {
-        "nombre_sede": "Sede Honda - Tolima",
-        "icono": "Honda.png"
+        "nombre_sede": "Sede Líbano - Tolima",
+        "icono": "Libano.jpg"
       }
     ]
   },
@@ -220,25 +220,25 @@
     "icono": "nutricion.ico",
     "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
     "instalaciones": [
-      "Nutricion1.png",
-      "Nutricion2.png",
-      "Nutricion3.png",
-      "Nutricion4.png",
-      "Nutricion5.png",
-      "Nutricion6.png"
+      "Nutricion1.jpg",
+      "Nutricion2.jpg",
+      "Nutricion3.jpg",
+      "Nutricion4.jpg",
+      "Nutricion5.jpg",
+      "Nutricion6.jpg"
     ],
     "sedes": [
       {
-        "nombre_sede": "Sede Monteria",
-        "icono": "Monteria.png"
+        "nombre_sede": "Sede Montería",
+        "icono": "Monteria.jpg"
       },
       {
         "nombre_sede": "Sede Cartagena",
-        "icono": "Cartagena.png"
+        "icono": "Cartagena.jpg"
       },
       {
-        "nombre_sede": "Sede Honda - Tolima",
-        "icono": "Honda.png"
+        "nombre_sede": "Sede Líbano - Tolima",
+        "icono": "Libano.jpg"
       }
     ]
   },
@@ -247,25 +247,25 @@
     "icono": "vacunacion.ico",
     "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
     "instalaciones": [
-      "Vacunacion1.png",
-      "Vacunacion2.png",
-      "Vacunacion3.png",
-      "Vacunacion4.png",
-      "Vacunacion5.png",
-      "Vacunacion6.png"
+      "Vacunacion1.jpg",
+      "Vacunacion2.jpg",
+      "Vacunacion3.jpg",
+      "Vacunacion4.jpg",
+      "Vacunacion5.jpg",
+      "Vacunacion6.jpg"
     ],
     "sedes": [
       {
-        "nombre_sede": "Sede Monteria",
-        "icono": "Monteria.png"
-      },
-      {
-        "nombre_sede": "Sede Cartagena",
-        "icono": "Cartagena.png"
+        "nombre_sede": "Sede Montería",
+        "icono": "Monteria.jpg"
       },
       {
         "nombre_sede": "Sede Honda - Tolima",
-        "icono": "Honda.png"
+        "icono": "Honda.jpg"
+      },
+      {
+        "nombre_sede": "Sede Líbano - Tolima",
+        "icono": "Libano.jpg"
       }
     ]
   },
@@ -274,25 +274,25 @@
     "icono": "optometria.ico",
     "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
     "instalaciones": [
-      "Optometria1.png",
-      "Optometria2.png",
-      "Optometria3.png",
-      "Optometria4.png",
-      "Optometria5.png",
-      "Optometria6.png"
+      "Optometria1.jpg",
+      "Optometria2.jpg",
+      "Optometria3.jpg",
+      "Optometria4.jpg",
+      "Optometria5.jpg",
+      "Optometria6.jpg"
     ],
     "sedes": [
       {
-        "nombre_sede": "Sede Monteria",
-        "icono": "Monteria.png"
-      },
-      {
         "nombre_sede": "Sede Cartagena",
-        "icono": "Cartagena.png"
+        "icono": "Cartagena.jpg"
       },
       {
         "nombre_sede": "Sede Honda - Tolima",
-        "icono": "Honda.png"
+        "icono": "Honda.jpg"
+      },
+      {
+        "nombre_sede": "Sede Ibagué",
+        "icono": "Ibague.jpg"
       }
     ]
   },
@@ -301,25 +301,25 @@
     "icono": "odontologia.ico",
     "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
     "instalaciones": [
-      "Odontologia1.png",
-      "Odontologia2.png",
-      "Odontologia3.png",
-      "Odontologia4.png",
-      "Odontologia5.png",
-      "Odontologia6.png"
+      "Odontologia1.jpg",
+      "Odontologia2.jpg",
+      "Odontologia3.jpg",
+      "Odontologia4.jpg",
+      "Odontologia5.jpg",
+      "Odontologia6.jpg"
     ],
     "sedes": [
       {
-        "nombre_sede": "Sede Monteria",
-        "icono": "Monteria.png"
-      },
-      {
         "nombre_sede": "Sede Cartagena",
-        "icono": "Cartagena.png"
+        "icono": "Cartagena.jpg"
       },
       {
-        "nombre_sede": "Sede Honda - Tolima",
-        "icono": "Honda.png"
+        "nombre_sede": "Sede Ibagué",
+        "icono": "Ibague.jpg"
+      },
+      {
+        "nombre_sede": "Sede Líbano - Tolima",
+        "icono": "Libano.jpg"
       }
     ]
   },
@@ -328,25 +328,25 @@
     "icono": "psiquiatria.ico",
     "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
     "instalaciones": [
-      "Psiquiatria1.png",
-      "Psiquiatria2.png",
-      "Psiquiatria3.png",
-      "Psiquiatria4.png",
-      "Psiquiatria5.png",
-      "Psiquiatria6.png"
+      "Psiquiatria1.jpg",
+      "Psiquiatria2.jpg",
+      "Psiquiatria3.jpg",
+      "Psiquiatria4.jpg",
+      "Psiquiatria5.jpg",
+      "Psiquiatria6.jpg"
     ],
     "sedes": [
       {
-        "nombre_sede": "Sede Monteria",
-        "icono": "Monteria.png"
-      },
-      {
         "nombre_sede": "Sede Cartagena",
-        "icono": "Cartagena.png"
+        "icono": "Cartagena.jpg"
       },
       {
-        "nombre_sede": "Sede Honda - Tolima",
-        "icono": "Honda.png"
+        "nombre_sede": "Sede Ibagué",
+        "icono": "Ibague.jpg"
+      },
+      {
+        "nombre_sede": "Sede Bogotá",
+        "icono": "Bogota.jpg"
       }
     ]
   },
@@ -355,25 +355,25 @@
     "icono": "otorrinolaringologia.ico",
     "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.",
     "instalaciones": [
-      "Otorrino1.png",
-      "Otorrino2.png",
-      "Otorrino3.png",
-      "Otorrino4.png",
-      "Otorrino5.png",
-      "Otorrino6.png"
+      "Otorrino1.jpg",
+      "Otorrino2.jpg",
+      "Otorrino3.jpg",
+      "Otorrino4.jpg",
+      "Otorrino5.jpg",
+      "Otorrino6.jpg"
     ],
     "sedes": [
       {
-        "nombre_sede": "Sede Monteria",
-        "icono": "Monteria.png"
-      },
-      {
-        "nombre_sede": "Sede Cartagena",
-        "icono": "Cartagena.png"
+        "nombre_sede": "Sede Montería",
+        "icono": "Monteria.jpg"
       },
       {
         "nombre_sede": "Sede Honda - Tolima",
-        "icono": "Honda.png"
+        "icono": "Honda.jpg"
+      },
+      {
+        "nombre_sede": "Sede Bogotá",
+        "icono": "Bogota.jpg"
       }
     ]
   }

@@ -13,6 +13,7 @@ import { ServiciosOfrecidosComponent } from './components/serviciosOfrecidos/ser
 import { ServiciosOfrecidos2Component } from './components/serviciosOfrecidos2/serviciosOfrecidos2.component';
 import { SubprocedimientosComponent } from './components/subprocedimientos/subprocedimientos.component';
 import { SubsedesComponent } from './components/subsedes/subsedes.component';
+import { SubnoticiasComponent } from './components/subnoticias/subnoticias.component';
 
 
 const routes: Routes = [
@@ -56,17 +57,19 @@ const routes: Routes = [
   },
   {
     path:'sedes',
-    component:SedesComponent,
-    children: [
-      {
-        path: 'subsedes/:nombre_sede',
-        component: SubsedesComponent,
-      },
-    ]
+    component:SedesComponent
+  },
+  {
+    path: 'subsedes/:nombre_sede',
+    component: SubsedesComponent,
   },
   {
     path:'noticias',
     component:NoticiasComponent
+  },
+  {
+    path: 'subnoticias/:nombre',
+    component: SubnoticiasComponent,
   },
   
 ];

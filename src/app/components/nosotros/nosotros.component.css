@@ -1,6 +1,39 @@
 .titulo{
-    font-size: 36px;
-    text-align: center;
-    color: #72bb53;
-    font-family: Zapf Chancery, cursive;
+  font-size: 36px;
+  text-align: center;
+  color: #72bb53;
+  font-family: Zapf Chancery, cursive;
 }
+ul {
+    list-style: none;
+  }
+#valores{
+  background-color: #72bb53;
+  width: 280px;
+}
+.lista{
+  color: #fff;
+}
+
+.container col-lg-5 {
+  position: relative;
+  width: 100%; 
+  }
+   
+.box {
+  position: absolute;
+  top: 480px;
+  left: 30;
+  height: 50px;
+  width: 20%;
+  padding: 10px;
+  background-color: #ffa834;
+  text-align: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  }
+  #descripcion{
+    text-align: justify;
+  }
+

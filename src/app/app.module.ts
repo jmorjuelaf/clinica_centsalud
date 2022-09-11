@@ -24,6 +24,10 @@ import { SubespecialidadesComponent } from './components/subespecialidades/subes
 import { SubprocedimientosComponent } from './components/subprocedimientos/subprocedimientos.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { SubsedesComponent } from './components/subsedes/subsedes.component';
+import {MatIconModule} from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
+import { SubnoticiasComponent } from './components/subnoticias/subnoticias.component';
+import { MenuNoticiasComponent } from './components/menuNoticias/menuNoticias.component';
 
 
 
@@ -35,6 +39,8 @@ import { SubsedesComponent } from './components/subsedes/subsedes.component';
     SedesComponent,
     SubsedesComponent,
     NoticiasComponent,
+    MenuNoticiasComponent,
+    SubnoticiasComponent,
     InicioComponent,
     ServiciosComponent,
     ServiciosOfrecidosComponent,
@@ -43,6 +49,7 @@ import { SubsedesComponent } from './components/subsedes/subsedes.component';
     ProcedimientosComponent,
     SubespecialidadesComponent,
     SubprocedimientosComponent,
+
    ],
   imports: [
     BrowserModule,
@@ -53,6 +60,8 @@ import { SubsedesComponent } from './components/subsedes/subsedes.component';
     MatCardModule,
     MatButtonModule,
     CarouselModule,
+    MatIconModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

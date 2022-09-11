@@ -1,1 +1,26 @@
-<p>Menu noticias</p>
+<p></p>
+<div class="container">
+  <div class="titulo">
+    <p><strong>{{title}}</strong> </p>
+  </div>
+</div>
+<!--=====Sección mosaico sedes con mat-card====-->
+<section>
+  <div class="page-container">
+    <div class="chains">
+      <div *ngFor="let noticia of noticias">
+        <mat-card *ngIf="noticia.fecha == '10 septiembre del 2022'"
+          class="mat-elevation-z7">
+          <img mat-card-image src="assets/img/noticias/{{noticia.icono}}">
+          <mat-card-title>{{noticia.nombre}}</mat-card-title>
+          <mat-card-content><p>
+              <a routerLink="/subnoticias/{{noticia.nombre}}"><!--Ruta para ver info de noticias-->
+                {{noticia.descripcion_corta}}</a></p>
+          </mat-card-content>
+          <mat-card-subtitle>{{noticia.fecha}}</mat-card-subtitle>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</section>
+<!--=====Fin Sección mosaico sedes con mat-card====-->

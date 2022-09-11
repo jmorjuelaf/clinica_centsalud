@@ -47,6 +47,7 @@
             </div>
           </div>
         </div>
+        <!--------Boton para correr imágenes de manera manual-->
         <button class="carousel-control-prev" type="button"
           data-bs-target="#carouselExampleControls"
           data-bs-slide="prev">
@@ -82,7 +83,7 @@
             <img mat-card-image src="assets/img/sedes/{{especialidad.icono}}">
           <mat-card-content>
             <p>
-              {{especialidad.nombre_sede}}
+              <a routerLink="/subsedes/{{especialidad.nombre_sede}}">{{especialidad.nombre_sede}}</a>
             </p>
           </mat-card-content>
         </mat-card>

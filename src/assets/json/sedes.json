@@ -2,28 +2,28 @@
   {
     "sedes": [
       {
-        "nombre_sede": "Sede Monteria",
-        "icono": "Monteria.png"
+        "nombre_sede": "Sede Montería",
+        "icono": "Monteria.jpg"
       },
       {
         "nombre_sede": "Sede Cartagena",
-        "icono": "Cartagena.png"
+        "icono": "Cartagena.jpg"
       },
       {
         "nombre_sede": "Sede Honda - Tolima",
-        "icono": "Honda.png"
+        "icono": "Honda.jpg"
       },
       {
         "nombre_sede": "Sede Ibagué",
-        "icono": "Ibague.png"
+        "icono": "Ibague.jpg"
       },
       {
-        "nombre_sede": "Sede Líbano",
-        "icono": "Libano.png"
+        "nombre_sede": "Sede Líbano - Tolima",
+        "icono": "Libano.jpg"
       },
       {
         "nombre_sede": "Sede Bogotá",
-        "icono": "Bogota.png"
+        "icono": "Bogota.jpg"
       }
     ]
   }

@@ -16,7 +16,7 @@
             routerLink="/servicios/subespecialidades/{{especialidad.nombre_servicio}}">
             {{especialidad.nombre_servicio}}</button>
             
-          <!--Si el nombre de servicios es igual de "otros servicios-->
+          <!--Si el nombre de servicios es igual a "otros servicios-->
           <button *ngIf="especialidad.nombre_servicio === 'Otros Servicios'"
             mat-flat-button routerLink="/servicios/especialidades/">{{especialidad.nombre_servicio}}
           </button>

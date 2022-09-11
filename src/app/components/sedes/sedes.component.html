@@ -5,6 +5,7 @@
         <p><strong>{{title}}</strong> </p>
     </div>
   </div>
+   <!--=====Sección mosaico sedes con mat-card====-->
   <section>
   <div class="page-container" style="text-align: center;">
     <div class="chains">
@@ -13,13 +14,13 @@
         <img mat-card-image src="assets/img/sedes/{{sede.icono}}">
         <mat-card-content>
           <p>
-            <button mat-flat-button routerLink="/sedes/subsedes/{{sede.nombre_sede}}">
-              {{sede.nombre_sede}}</button></p>
+            <a routerLink="/subsedes/{{sede.nombre_sede}}"><!--Ruta para ver info de sedes-->
+              {{sede.nombre_sede}}</a></p>
         </mat-card-content>
       </mat-card>
     </div>
-    </div>
-  </div>
+    </div>  </div>
   </section>
+     <!--=====Fin Sección mosaico sedes con mat-card====-->
   </body>
 
