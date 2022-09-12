@@ -11,7 +11,8 @@
   .chains {
     width: 100%;
     display: block;
-    overflow-x: scroll;
+    text-align: center;
+    
   }
   
   .chains mat-card {
@@ -36,6 +37,10 @@
     font-size: 15px;
     color: #ffa834;
     text-decoration: none;
+  }
+  .container1{
+    display: flex;
+    flex-direction: row;
   }
   
   

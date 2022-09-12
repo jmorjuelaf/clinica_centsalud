@@ -10,7 +10,6 @@
 .chains {
   width: 100%;
   display: block;
-  overflow-x: scroll;
 }
 .chains mat-card {
   display: inline-block;

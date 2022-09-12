@@ -8,9 +8,9 @@
 <section>
   <div class="page-container">
     <div class="chains">
-
-      <div *ngFor="let noticia of noticias" class="row">
-        <mat-card *ngIf="noticia.fecha == '10 septiembre del 2022'"
+      <ng-container *ngFor="let noticia of noticias">
+        <mat-card *ngIf="noticia.fecha == '10 septiembre del 2022' ||  
+         noticia.fecha == '20 julio del 2022' ||noticia.fecha == '1 septiembre del 2022'" 
           class="mat-elevation-z7"> <!--Condicional para mostrar solo fechas recientes-->
           <img mat-card-image src="assets/img/noticias/{{noticia.icono}}">
           <mat-card-title>{{noticia.nombre}}</mat-card-title>
@@ -20,8 +20,8 @@
           </mat-card-content>
           <mat-card-subtitle>{{noticia.fecha}}</mat-card-subtitle>
         </mat-card>
-      </div>
-      </div>
+      </ng-container>
     </div>
+</div>
 </section>
 <!--=====Fin Sección mosaico sedes con mat-card====-->
