@@ -7,7 +7,7 @@ import listadeNoticias from '/src/assets/json/noticias.json';
   styleUrls: ['./noticias.component.css']
 })
 export class NoticiasComponent implements OnInit {
-  title = 'Noticias en salud';
+  title = '¡Noticias en salud!';
   noticias:any =listadeNoticias;
   constructor() { }
 

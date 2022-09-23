@@ -22,9 +22,6 @@ export class SubsedesComponent implements OnInit {
   especialidades: any = listadeEspecialidades;
   procedimientos: any = listadeProcedimientos;
   
-
-
-
   constructor(private activatedRoute: ActivatedRoute) { }
 
   ngOnInit(): void {

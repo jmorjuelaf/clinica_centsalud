@@ -28,6 +28,11 @@ import {MatIconModule} from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { SubnoticiasComponent } from './components/subnoticias/subnoticias.component';
 import { MenuNoticiasComponent } from './components/menuNoticias/menuNoticias.component';
+import { FormsModule } from '@angular/forms';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { ReactiveFormsModule } from '@angular/forms';
+import { InfiniteScrollModule } from 'ngx-infinite-scroll';
+
 
 
 
@@ -57,6 +62,10 @@ import { MenuNoticiasComponent } from './components/menuNoticias/menuNoticias.co
     BrowserAnimationsModule,
     MatTabsModule,
     FontAwesomeModule,
+    FormsModule,
+    ReactiveFormsModule,
+    InfiniteScrollModule,
+    MatFormFieldModule,
     MatCardModule,
     MatButtonModule,
     CarouselModule,

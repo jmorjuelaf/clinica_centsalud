@@ -68,7 +68,7 @@ const routes: Routes = [
     component:NoticiasComponent
   },
   {
-    path: 'subnoticias/:nombre',
+    path: 'subnoticias/:tituloNoticia',
     component: SubnoticiasComponent,
   },
   

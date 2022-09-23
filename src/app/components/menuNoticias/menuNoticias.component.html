@@ -9,13 +9,12 @@
   <div class="page-container">
     <div class="chains">
       <ng-container *ngFor="let noticia of noticias">
-        <mat-card *ngIf="noticia.fecha == '10 septiembre del 2022' ||  
-         noticia.fecha == '20 julio del 2022' ||noticia.fecha == '1 septiembre del 2022'" 
+        <mat-card *ngIf="noticia.item1 || noticia.item2 ||noticia.item3" 
           class="mat-elevation-z7"> <!--Condicional para mostrar solo fechas recientes-->
-          <img mat-card-image src="assets/img/noticias/{{noticia.icono}}">
-          <mat-card-title>{{noticia.nombre}}</mat-card-title>
+          <img mat-card-image src="assets/img/noticias/{{noticia.imagenTitular}}">
+          <mat-card-title>{{noticia.tituloNoticia}}</mat-card-title>
           <mat-card-content><p>
-              <a routerLink="/subnoticias/{{noticia.nombre}}"><!--Ruta para ver info de noticias-->
+              <a routerLink="/subnoticias/{{noticia.tituloNoticia}}"><!--Ruta para ver info de noticias-->
                 {{noticia.descripcion_corta}}</a></p>
           </mat-card-content>
           <mat-card-subtitle>{{noticia.fecha}}</mat-card-subtitle>

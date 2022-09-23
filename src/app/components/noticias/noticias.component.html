@@ -10,13 +10,13 @@
     <div class="page-container" style="text-align: center;">
       <div class="chains">
         <mat-card *ngFor="let noticia of noticias" class="mat-elevation-z7">
-          <img mat-card-image src="assets/img/noticias/{{noticia.icono}}" class="img">
+          <img mat-card-image src="assets/img/noticias/{{noticia.imagenTitular}}" class="img">
           <mat-card-title>
-            {{noticia.nombre}}
+            {{noticia.tituloNoticia}}
           </mat-card-title>
           <mat-card-content>
             <p>
-              <a routerLink="/subnoticias/{{noticia.nombre}}"><!--Ruta para ver info de noticias-->
+              <a routerLink="/subnoticias/{{noticia.tituloNoticia}}"><!--Ruta para ver info de noticias-->
                 {{noticia.descripcion_corta}}</a></p>
           </mat-card-content>
           <mat-card-subtitle>{{noticia.fecha}}</mat-card-subtitle>

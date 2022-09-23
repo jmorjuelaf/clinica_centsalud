@@ -1,0 +1,27 @@
+.titulo{
+    font-size: 36px;
+    text-align: center;
+    color: #72bb53;
+    font-family: Zapf Chancery, cursive;
+  }
+  .subtitulo{
+    font-size: 25px;
+    text-align: justify;
+    color: #72bb53;
+    font-family: Zapf Chancery, cursive;
+  }
+  img{
+    max-width: 100%;
+    min-height: 100%;
+  }
+  #div1 {
+    overflow:scroll;
+    height:200px;
+    width:1000px;
+}
+.comentar {
+  background: #00a4d3;
+}
+.comentar:hover {
+  background:  #ffa834;
+}

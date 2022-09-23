@@ -7,20 +7,24 @@
 .page-container {
   width: 100%;
 }
+
 .chains {
   width: 100%;
   display: block;
+  text-align: center;
+  
 }
+
 .chains mat-card {
   display: inline-block;
 }
 mat-card {
-  width: 23%;
-  height: 23%;
+  width: 25%;
+  height: 25%;
   margin: 30px;
 }
 .mat-card-image:first-child {
-  margin-top: -20px;
+  margin-top: -15px;
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
 }
@@ -29,11 +33,13 @@ a {
   color: #000;
   text-decoration: none;
 }
-a:hover {
+a:hover{
   font-size: 15px;
   color: #ffa834;
   text-decoration: none;
 }
-
-
+.container1{
+  display: flex;
+  flex-direction: row;
+}
 
