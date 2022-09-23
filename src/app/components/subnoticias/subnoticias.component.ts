@@ -16,15 +16,15 @@ export class SubnoticiasComponent implements OnInit {
   noticias: any = presentacion;
   noticiaSeleccionada: any;
   subtitle = 'Comentarios';
-  comentarios:any=listacomentarios;
-  nombre:any;
-  comentario:any;
+  comentarios: any = listacomentarios;
+  datos: any;
+  //nombre:any;
+  //comentario:any;
 
   formularioContacto = new FormGroup({
     nombre: new FormControl(''),
     comentario: new FormControl(''),
   });
-  
 
   constructor(private activatedRoute: ActivatedRoute) {}
 
@@ -45,8 +45,12 @@ export class SubnoticiasComponent implements OnInit {
       }
     }
   }
-    submit() {
-      this.nombre=`${this.formularioContacto.value.nombre}`;
-      this.comentario=`${this.formularioContacto.value.comentario}`;           
-    }
+  submit() {
+    //  this.nombre=`${this.formularioContacto.value.nombre}`;
+    //  console.log(this.nombre.value);
+    //  this.comentario=`${this.formularioContacto.value.comentario}`;
+    //  console.log(this.comentario.value);
+    this.datos = `${this.formularioContacto.value.nombre}
+  ${this.formularioContacto.value.comentario}`;
+  }
 }
