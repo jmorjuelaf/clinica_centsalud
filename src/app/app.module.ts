@@ -73,6 +73,8 @@ import {MatDialogModule} from '@angular/material/dialog';
     MatIconModule,
     MatListModule,
     MatDialogModule,
+
+    
   ],
   providers: [],
   bootstrap: [AppComponent],

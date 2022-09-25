@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import presentacion from '/src/assets/json/subnoticias.json';
 import { ActivatedRoute, ParamMap } from '@angular/router';
-
 import infodeNoticias from '/src/assets/json/subnoticias.json';
 import { Comentario } from '../../comentario.model';
 
@@ -17,8 +16,9 @@ export class SubnoticiasComponent implements OnInit {
   subtitle = 'Comentarios';
 
   comentarios: Comentario[] = [];
-  nombreInput:string = '';
-  comentarioInput:string = '';
+  nombreInput: any = '';
+  comentarioInput: any = '';
+  console = console;
 
   constructor(private activatedRoute: ActivatedRoute) {}
 
@@ -39,8 +39,12 @@ export class SubnoticiasComponent implements OnInit {
       }
     }
   }
-  agregarComentario(){
+  agregarComentario() {
     let comentario1 = new Comentario(this.nombreInput, this.comentarioInput);
-    this.comentarios.push( comentario1 );
+    this.comentarios.push(comentario1);
+    if(this.comentarios!=null){
+      console.log("Favor llenar el formulario")
+    }
   }
+  
 }

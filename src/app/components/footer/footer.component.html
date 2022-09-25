@@ -41,9 +41,16 @@
               <form class="form-row">
                 <div class="form-group col-md-12">
                   <textarea id="comentario" name="comentario" rows="4" cols="50"
-                    id="comentario" placeholder="Escribe aquí"
-                    class="form-control" [(ngModel)]="comentarioInput">
-                  </textarea>
+                  id="comentario" placeholder="Escribe aquí tu comentario"
+                  class="form-control"
+                  #comentario="ngModel" [(ngModel)]="comentarioInput"
+                  [ngClass]="{'is-invalid': comentario.errors &&
+                  comentario.touched}" required>
+                </textarea>
+                <div [hidden]="!comentario.errors?.['required']"
+                  class="invalid-feedback">
+                  Campo requerido
+                </div>                  
                 </div>
                 <p></p>
                 <div class="col">

@@ -1,8 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import infocontacto from '/src/assets/json/contactenos.json';
 import { Comentario } from '../../comentario1.model';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
+import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
 
+export interface DialogData {
+  animal: string;
+  name: string;
+}
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
@@ -15,7 +19,6 @@ export class FooterComponent implements OnInit {
   contactenos:any=infocontacto;
   comentarios: Comentario[] = [];
   comentarioInput:string = '';
-  faUser = faUser;
   constructor() { }
 
   ngOnInit():void {
@@ -25,4 +28,5 @@ export class FooterComponent implements OnInit {
     let comentario1 = new Comentario(this.comentarioInput);
     this.comentarios.push( comentario1 );
   }
+  
 }
