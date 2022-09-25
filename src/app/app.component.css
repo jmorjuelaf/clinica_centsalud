@@ -1,4 +1,13 @@
 #cuerpo {
     height: 550px;
+    background-color: rgba(0,0,0,0.8);
     background-image: url("/assets/img/servicios/servicios.jpg");
+    filter:brightness(0.4);
     }
+    #image {
+        background-color: rgba(0,0,0,0.8);
+        background-image:url(http://www.gelfuzion.com/img/slides/nivo/bg-1.jpg);
+        height: 500px;
+        max-width: 100%;
+        filter:brightness(0.4);
+      }
