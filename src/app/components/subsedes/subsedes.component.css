@@ -1,9 +1,12 @@
+/***============= Para toda la página================*/
 .titulo{
   font-size: 36px;
   text-align: center;
   color: #72bb53;
   font-family: Zapf Chancery, cursive;
+  text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
 }
+/**===== Sección descripción, imagen y contactos sede====*/
 ::ng-deep.nombre-icono {
   text-align: center;
   font-family: Helvetica;
@@ -13,7 +16,6 @@
 mat-card {
   max-width: 100%;
   max-height: 100%;
-
 }
 li{
   font-family: Zapf Chancery, cursive;
@@ -22,6 +24,7 @@ li{
 ul {
   list-style: none;
 }
+/**=====Sección carrusel de imágenes instalaciones====*/
 ::ng-deep.carousel-item {
   float: center !important;
 }
@@ -31,12 +34,14 @@ justify-content: center;
 width: 60%;
 padding: 0;
 }
+/**=================Sección sedes especialidades===============*/
 .titulo_descripcion{
   text-align: center;
   font-family: Helvetica;
   color: #6f6f6f;
   font-size: 18px;
   height: 30px;
+  text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
 }
 .principal_esp {
   display: grid;

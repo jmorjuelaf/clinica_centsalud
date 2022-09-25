@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import infocontacto from '/src/assets/json/contactenos.json';
+import { Comentario } from '../../comentario1.model';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-footer',
@@ -7,9 +10,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+  contactenos1="Contáctenos";
+  escribenos="Escríbenos...";
+  contactenos:any=infocontacto;
+  comentarios: Comentario[] = [];
+  comentarioInput:string = '';
+  faUser = faUser;
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit():void {
+    
   }
-
+  agregarComentario(){
+    let comentario1 = new Comentario(this.comentarioInput);
+    this.comentarios.push( comentario1 );
+  }
 }

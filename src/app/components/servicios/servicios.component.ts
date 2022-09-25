@@ -12,6 +12,8 @@ import menuEspecialidades from '/src/assets/json/tabs.json';
 export class ServiciosComponent implements OnInit {
 
   title = '¡Especialistas en salud!';
+  subtitle1='¡Te invitamos a conocer nuestros servicios ambulatorios de primer y segundo nivel en IPS CENTSALUD!';
+  subtitle2='Apoyo diagnóstico, procedimientos y especialidades clínicas.'
   tabs: any = menuEspecialidades;
   activeLink = this.tabs[1];
 

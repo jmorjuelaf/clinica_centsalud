@@ -1,9 +1,11 @@
+/****=====Sección especialidades inicio ====*/
 .titulo{
     text-align: center;
     font-family: Helvetica;
     color: #6f6f6f;
     font-size: 18px;
     height: 30px;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
 }
 .principal {
   display: grid;
