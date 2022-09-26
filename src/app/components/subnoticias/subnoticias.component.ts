@@ -3,6 +3,7 @@ import presentacion from '/src/assets/json/subnoticias.json';
 import { ActivatedRoute, ParamMap } from '@angular/router';
 import infodeNoticias from '/src/assets/json/subnoticias.json';
 import { Comentario } from '../../comentario.model';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-subnoticias',
@@ -14,11 +15,12 @@ export class SubnoticiasComponent implements OnInit {
   noticias: any = presentacion;
   noticiaSeleccionada: any;
   subtitle = 'Comentarios';
+  titularAlerta: string = '';
 
   comentarios: Comentario[] = [];
   nombreInput: any = '';
   comentarioInput: any = '';
-  console = console;
+ 
 
   constructor(private activatedRoute: ActivatedRoute) {}
 
@@ -40,11 +42,19 @@ export class SubnoticiasComponent implements OnInit {
     }
   }
   agregarComentario() {
-    let comentario1 = new Comentario(this.nombreInput, this.comentarioInput);
-    this.comentarios.push(comentario1);
-    if(this.comentarios!=null){
-      console.log("Favor llenar el formulario")
+      let comentario1 = new Comentario(this.nombreInput, this.comentarioInput);
+      this.comentarios.push(comentario1);
+      console.log(this.nombreInput, this.comentarioInput);
+      Swal.fire('¡Comentario ingresado!', 'Gracias por participar');
+      Swal.update({
+        icon: 'success',
+      });
+      if (this.nombreInput.length <= 0 && this.comentarioInput.length <= 0) {
+        Swal.fire(
+          '¡Escribe tu comentario!','Campo no puede quedar vacío');
+        Swal.update({
+          icon: 'error',
+        });
+      }
     }
-  }
-  
 }

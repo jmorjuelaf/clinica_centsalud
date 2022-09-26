@@ -1,4 +1,4 @@
 export class Comentario{
-    constructor( public nombre: string, public comentario: string){}
+    constructor( public nombre: any, public comentario: any){}
 
 }
